@@ -1,6 +1,6 @@
-const Shapes = require("../shapes.js") // import shapes classes
-const inquirer = require("inquirer")
-const fs = require("fs/promises")
+const Shapes = require('./lib/shapes.js') // import shapes classes
+const inquirer = require('inquirer')
+const fs = require('fs/promises')
 
 // originally coded questions in inquirer.prompt, but moved to const questions
 const questions = [
