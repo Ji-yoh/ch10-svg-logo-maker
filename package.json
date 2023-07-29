@@ -11,5 +11,9 @@
     "license": "MIT",
     "devDependencies": {
         "jest": "^29.6.2"
+    },
+    "dependencies": {
+        "fs.promises": "^0.1.2",
+        "inquirer": "^9.2.9"
     }
 }
