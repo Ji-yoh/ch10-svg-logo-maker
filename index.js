@@ -21,21 +21,30 @@ const questions = [
                         message: "What color would you like to use?"
                     }
                  ];
+/*
+function writeSvgFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            console.log(err)
+        } else {
+            console.log("Logo created successfully!")
+        }
+    })
+} */
 
-const answers = inquirer.prompt(questions);
+function initialize() {
+    const answers = inquirer.prompt(questions)
+    .then((answers) => {
+    // should store user responses in variables
+    const logo = answers.logo;
+    const shape = answers.shape;
+    const color = answers.color;
+    console.log(answers)
+    // const svg = new Shapes(shape, color, logo);
+    // writeSvgFile("logo.svg", svg.render(answers))    
 
-// should store user responses in variables
-const logo = answers.logo;
-const shape = answers.shape;
-const color = answers.color;
+    })
 
-const svg = new Shapes(shape, color, logo);
+}
 
-fs.writeFile("logo.svg", svg.render(), (err) => {
-    if (err) {
-        console.log(err)
-    } else {
-        console.log("Logo created successfully!")
-    }
-})
-
+initialize();
