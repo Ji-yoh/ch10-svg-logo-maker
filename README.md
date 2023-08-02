@@ -1,30 +1,16 @@
-# ch10-svg-logo-maker
+  # Logo Generator
 
-## User Story
-``````
-AS a freelance web developer
-I WANT to generate a simple logo for my projects
-SO THAT I don't have to pay a graphic designer
-``````
+  ## Table of Contents
+  * [Description](#description)
+  * [Usage](#usage)
+  * [Tests](#tests)
+  * [Walkthrough Video](#walkthrough-video)
+  
 
-## Acceptance Criteria
-``````
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for text
-THEN I can enter up to three characters
-WHEN I am prompted for the text color
-THEN I can enter a color keyword (OR a hexadecimal number)
-WHEN I am prompted for a shape
-THEN I am presented with a list of shapes to choose from: circle, triangle, and square
-WHEN I am prompted for the shape's color
-THEN I can enter a color keyword (OR a hexadecimal number)
-WHEN I have entered input for all the prompts
-THEN an SVG file is created named `logo.svg`
-AND the output text "Generated logo.svg" is printed in the command line
-WHEN I open the `logo.svg` file in a browser
-THEN I am shown a 300x200 pixel image that matches the criteria I entered
-``````
-
-## Development
+  ## Description 
+  A command line application that accepts user input from the Node Inquirer package and creates a logo consisting of a shape, color, and 3 characters of text. An .svg file is created in an output folder after the user provides input. Seperate classes were created for the available shapes and the Jest package was used for testing.
+  
+  ## Usage
+  The Inquirer, Jest, and fs packages are required for this application.
 
 ## Walkthrough Video

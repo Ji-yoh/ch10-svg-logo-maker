@@ -8,7 +8,7 @@
         "test": "jest"
     },
     "author": "",
-    "license": "MIT",
+    "license": "",
     "devDependencies": {
         "jest": "^29.6.2"
     },

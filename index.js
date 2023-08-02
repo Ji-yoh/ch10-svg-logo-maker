@@ -16,22 +16,6 @@ function writeSvgFile(fileName, data) {
     })
 } 
 
-/*
-function initialize() {
-    const answers = inquirer.prompt(questions)
-    .then((answers) => {
-    // should store user responses in variables
-    const logo = answers.logo;
-    const shape = answers.shape;
-    const color = answers.color;
-    console.log(answers)
-    // const svg = new Shapes(shape, color, logo);
-    // writeSvgFile("logo.svg", svg.render(answers))    
-
-    })
-
-}*/
-
 function initialize() {
     inquirer.prompt([
         {
