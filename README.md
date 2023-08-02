@@ -13,4 +13,5 @@
   ## Usage
   The Inquirer, Jest, and fs packages are required for this application.
 
-## Walkthrough Video
+  ## Walkthrough Video
+  [Walkthrough Video](https://drive.google.com/file/d/1qppAJv4ar2knARqSvExOSBgR3qEXD3qB/view)
